@@ -6,8 +6,8 @@ setwd("~/jhuGetData/uci_har/")
 
 # Read in the training data, test data, subject labels,
 # and feature labels
-trainSet <- read.table("train/X_train.txt")  # training
-trainLabels <- read.table("train/y_train.txt") # train
+trainSet <- read.table("train/X_train.txt")  
+trainLabels <- read.table("train/y_train.txt") 
 testSet <- read.table("test/X_test.txt")
 testLabels <- read.table("test/y_test.txt")
 subjTrain <- read.table("train/subject_train.txt")
